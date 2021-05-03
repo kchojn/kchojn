@@ -1,11 +1,12 @@
 <h1 align='center'>
   Hi there 👋,  
+  
   I am Karol 😎
 </h1>
 
 <p align='center'>
   Python developer with analitycal skills!  
-  Mostly commiting in `gitlab` and private repos! 
+  Mostly commiting in gitlab and private repos! 
 </p>
 
 
