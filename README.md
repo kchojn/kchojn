@@ -5,8 +5,7 @@
 </h1>
 
 <p align='center'>
-  Python developer with analitycal skills!  
-  Mostly commiting in gitlab and private repos! 
+  Python developer.
 </p>
 
 
