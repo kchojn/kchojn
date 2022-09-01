@@ -5,7 +5,7 @@
 </h1>
 
 <p align='center'>
-  Software developer (mainly python).
+  Senior Software developer developing in blockchain.
 </p>
 
 
@@ -13,10 +13,10 @@
   Social:
 </h3>
 <p align='center'>
-  <a href="https://www.linkedin.com/in/karol-chojnowski/">
+  <a href="https://www.linkedin.com/in/karol-chojnowski/" target="_blank">
     <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>&nbsp;&nbsp;
-  <a href="https://www.instagram.com/kchojn/">
+  <a href="https://www.instagram.com/kchojn/" target="_blank">
     <img src="https://img.shields.io/badge/instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white" />        
   </a>&nbsp;&nbsp;
 </p>
