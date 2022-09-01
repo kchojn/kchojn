@@ -35,6 +35,9 @@
     <a target="_blank">
         <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go">
     </a>&nbsp;
+    <a target="_blank">
+        <img src="https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=Ethereum&logoColor=white" alt="ETH">
+    </a>&nbsp;
 </p>
 
 
