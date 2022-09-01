@@ -5,7 +5,7 @@
 </h1>
 
 <p align='center'>
-  Senior Software developer developing in blockchain.
+  Senior Software engineer developing in blockchain.
 </p>
 
 
