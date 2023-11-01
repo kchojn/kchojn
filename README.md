@@ -3,7 +3,7 @@
 
 <p align="center">
   📝 I regularly write articles on <a href="https://tokenflow.live/blog">https://tokenflow.live/blog</a><br>
-  ⚡ Fun fact <strong>I love thai boxing! 🥊</strong>
+  ⚡ <strong>I love Thai boxing! 🥊</strong>
 </p>
 
 <br>
