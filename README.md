@@ -1,10 +1,6 @@
 <h1 align="center">Hi there 👋, I'm Karol</h1>
 <h3 align="center">Software engineer developing in blockchain.</h3>
 
-<p align="center">
-  📝 I regularly write articles on <a href="https://tokenflow.live/blog">https://tokenflow.live/blog</a><br>
-</p>
-
 <h3 align="center">Connect with me:</h3>
 <p align="center">
   <a href="https://twitter.com/kchojn" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="kchojn" height="30" width="40" /></a>&nbsp;
