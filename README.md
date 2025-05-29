@@ -1,6 +1,6 @@
 <h3 align="center">Software engineer developing in blockchain.</h3>
 
-<h3 align="center">Connect with me:</h3>
+<br/>
 <p align="center">
   <a href="https://twitter.com/kchojn" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="kchojn" height="30" width="40" /></a>&nbsp;
   <a href="https://linkedin.com/in/karol-chojnowski" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="karol-chojnowski" height="30" width="40" /></a>&nbsp;
