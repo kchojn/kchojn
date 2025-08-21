@@ -1,4 +1,4 @@
-<h3 align="center">Software engineer developing in blockchain.</h3>
+<h3 align="center">Software engineer developing in blockchain</h3>
 
 <br/>
 <p align="center">
