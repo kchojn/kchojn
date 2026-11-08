@@ -2,7 +2,7 @@
 let karol = Engineer {
     role: "software engineer",
     focus: "ethereum infrastructure",
-    writes: ["rust", "go", "swift"],
+    writes: ["go", "rust", "python"],
     links: ["x.com/kchojn", "linkedin.com/in/karol-chojnowski"],
 };
 ```
