@@ -1,5 +1,5 @@
 ```rust
-let karol = Engineer {
+let kchojn = Engineer {
     role: "software engineer",
     focus: "Ethereum infrastructure",
     writes: ["go", "rust", "python"],
