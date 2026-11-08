@@ -1,7 +1,7 @@
 ```rust
 let karol = Engineer {
     role: "software engineer",
-    focus: "ethereum infrastructure",
+    focus: "Ethereum infrastructure",
     writes: ["go", "rust", "python"],
     links: ["x.com/kchojn", "linkedin.com/in/karol-chojnowski"],
 };
