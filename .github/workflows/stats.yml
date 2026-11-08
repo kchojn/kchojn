@@ -1,0 +1,59 @@
+# Rebuilds overview.svg and languages.svg once a day with jstrieb/github-stats,
+# pinned to one commit, and publishes them on the orphan branch "generated".
+#
+# The generator needs a classic personal access token in the STATS_TOKEN secret
+# with the read:user, user:email and repo scopes, as its README requires:
+# https://github.com/jstrieb/github-stats#installation. Without the secret the
+# run fails; it never publishes an empty card.
+#
+# EXCLUDE_PRIVATE keeps private repositories out of every figure that is
+# aggregated per repository (stars, forks, lines changed, repository count).
+name: stats
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+
+jobs:
+  generate:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          repository: jstrieb/github-stats
+          ref: ef574fae2ce8311f3e1ebb43e07c0c0fae0a41b6
+          path: github-stats
+
+      - uses: mlugg/setup-zig@v2
+        with:
+          version: 0.16.0
+
+      - name: Build the generator
+        working-directory: github-stats
+        run: zig build
+
+      - name: Generate the cards
+        working-directory: github-stats
+        env:
+          ACCESS_TOKEN: ${{ secrets.STATS_TOKEN }}
+          EXCLUDE_PRIVATE: "true"
+          EXCLUDE_REPOS: "kchojn/kchojn"
+          SILENT: "true"
+          MAX_RETRIES: "5"
+        run: |
+          test -n "$ACCESS_TOKEN" || { echo "STATS_TOKEN secret is not set"; exit 2; }
+          ./zig-out/bin/github-stats
+          mkdir -p ../out
+          cp overview.svg languages.svg ../out/
+
+      - uses: crazy-max/ghaction-github-pages@v5
+        with:
+          target_branch: generated
+          build_dir: out
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
