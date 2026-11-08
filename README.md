@@ -7,4 +7,6 @@ let karol = Engineer {
 };
 ```
 
-[x](https://x.com/kchojn) . [linkedin](https://www.linkedin.com/in/karol-chojnowski)
+<p align="center">
+  <a href="https://x.com/kchojn">x</a> . <a href="https://www.linkedin.com/in/karol-chojnowski">linkedin</a>
+</p>
